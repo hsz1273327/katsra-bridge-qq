@@ -1,0 +1,23 @@
+{
+  "name": "katsra-bridge-qq",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Official QQ Bot bridge plugin for OpenKatsura — connect QQ private & group chats via QQ Open Platform WebSocket API.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "install:dev": "node scripts/build.mjs --install-dev",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.18.1",
+    "esbuild": "^0.27.4",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
